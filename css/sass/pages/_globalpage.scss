@@ -1,0 +1,19 @@
+* {
+  @include prefixer(box-sizing, border-box, webkit moz o ms);
+  p {
+    color: $greyColor;
+  }
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+ul,
+ol {
+  list-style: none;
+  padding-left: 0px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}

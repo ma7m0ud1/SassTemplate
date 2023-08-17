@@ -1,0 +1,79 @@
+//! Start Header
+.header {
+  padding-top: $section-padding;
+  padding-bottom: 30px;
+  border-bottom: 1px solid $greyColor;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 50px;
+    @media #{$maxmobile} {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .logo {
+    display: block;
+    position: relative;
+    @media #{$maxmobile} {
+      text-align: center;
+      scale: 120%;
+    }
+    @media #{$minmedium} {
+    }
+    @media #{$minlarge} {
+    }
+    h1 {
+      margin: 0px;
+      span {
+        font-size: 40px;
+      }
+    }
+    p {
+      margin: 0px;
+      font-size: 17px;
+    }
+  }
+  .navbar {
+    background-color: $redColor;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 10px;
+    width: 70%;
+    @media #{$maxmobile} {
+      width: 100%;
+    }
+
+    ul {
+      display: flex;
+      justify-content: flex-start;
+      color: white;
+      li {
+        padding: 10px 5px;
+        width: 20%;
+        text-align: center;
+
+        a {
+          text-transform: uppercase;
+          font-size: 18px;
+          @media #{$maxmobile} {
+            font-size: 10px;
+          }
+          @media #{$minsmall} {
+            font-size: 13px;
+          }
+          @media #{$minmedium} {
+            font-size: 18px;
+          }
+          transition: 0.3s;
+          &:hover {
+            opacity: 70%;
+          }
+        }
+      }
+    }
+  }
+}
+//! End Header

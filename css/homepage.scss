@@ -1,0 +1,28 @@
+//! Import Variables
+@import "./sass/helpers/variables";
+
+//! Import Mixins
+@import "./sass/helpers/mixins";
+
+//! Import Grid
+@import "./sass/layout/grid";
+
+//! Import Grid
+@import "./sass/pages/globalpage";
+
+//! Import Header
+@import "./sass/layout/header";
+
+//! Import Header
+@import "./sass/layout/footer";
+
+//! Import Homepage
+@import "./sass/pages/homepage ";
+
+//! Import Functions
+@import "./sass/helpers/functions";
+
+//! Import Buttons
+@import "./sass/components/buttons";
+
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css";
